@@ -1,0 +1,70 @@
+#timelineico {
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: #6c6c6c;
+
+  margin-top: 5%;
+  padding: 5%;
+
+  text-align: left;
+}
+
+.card-group-timline-ico {
+  font-weight: bold;
+}
+
+.card-group-timline-header-ico {
+  text-transform: uppercase;
+
+  font-size: 28px;
+}
+
+.card-group-timline-name-ico {
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #00ffff;
+  font-style: italic;
+}
+
+.card-group-timline-amount-ico {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.card-group-timline-unitprice-ico {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.expand-timline {
+  border-radius: 30px;
+  width: 100%;
+  display: inline-block;
+  border-color: #faec9f;
+  border-style: solid;
+  border-width: thin;
+  margin: 10px 0;
+}
+
+.process-timline {
+  background: radial-gradient(#f8d447, #ed911b, #ba4610) !important;
+  border-radius: 30px;
+
+  text-align: center;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  color: #b30000;
+}
+
+.card-group-timline-body-ico{
+  overflow: auto;
+  height: 200px;
+}
+
+/* .percen-timeline{
+  display: flex;
+  transform: translateY(-50%);
+} */

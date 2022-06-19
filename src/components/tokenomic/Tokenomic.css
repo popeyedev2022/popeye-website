@@ -1,0 +1,60 @@
+.values{
+    margin: auto;
+    width: 40%;
+    padding: 1rem;
+}
+.chart-area{
+    margin: auto;
+    width: 47%;
+    padding: 1rem;
+}
+.values-head{
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+.values ul{
+    text-align: left;
+}
+.values ul li{
+    list-style: none;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+.values ul li .label{
+    color: #fff;
+    font-weight: bold;
+}
+.values ul li .value{
+    color: #c2c2c2;
+    font-weight: normal;
+}
+.chart-main{
+    width: 100%;
+    margin: auto;
+}
+.donutchart{
+    width: 100% !important;
+    margin: auto;
+}
+.donutchart-innertext,.donutchart-legend{
+    fill: #fff !important;
+}
+@media screen and (max-width:945px) {
+    .chart-area,.values{
+        width: 100%;
+    }
+    .chart-main{
+        width: 130%;
+    }
+    .donutchart{
+        width: 100% !important;
+        margin: auto;
+        margin-left: 3%;
+    }
+    .donutchart .donutchart-legend{
+        display: none;
+    }
+}
+
+

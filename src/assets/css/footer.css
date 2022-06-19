@@ -1,0 +1,71 @@
+#footer.bg {
+  background-image: url("../img/background/bg_footer.png");
+  color: white;
+}
+
+#footer-logo {
+  margin-top: 20px;
+  background-image: url(../img/logng);
+  background-size: 100%;
+  /* padding: 5%; */
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  filter: drop-shadow(3px 5px 5px #00ffff);
+  transition: transform 0.3s;
+  display: inline-block;
+  /* border-color: red;
+  border-style: dotted; */
+  height: auto;
+  width: 240px;
+  padding: 5%;
+}
+
+#footer-logo:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  text-decoration: none !important;
+  border-bottom-style: none !important;
+}
+
+@media (max-width: 991px) {
+  #footer-logo{
+    background-position: center !important;
+    margin-bottom: 5%;
+  }
+}
+h3 {
+  color: white;
+}
+
+#footer a {
+  color: white;
+  font-style: normal;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.item {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#select-wallet {
+  border-radius: 30px;
+  background-image: blue;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(180deg, #217be4 0%, #2ac0f5 100%);
+  border-radius: 30px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+#select-wallet:hover {
+  box-shadow: 2px 2px 4px 2px #217be4;
+}
+
+#select-wallet a:hover {
+  border-bottom: none;
+}

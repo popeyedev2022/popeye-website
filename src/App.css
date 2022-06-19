@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Ubuntu');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    transition: all .3s ease-in-out;
+}
+
+html, body{
+    scroll-behavior: smooth;
+    /* background: url('./assets/img/bg.jpg');
+    background-size: 100%;
+    background-attachment: fixed; */
+    background-color: #090721;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-top: 10px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.content-wrap{
+  width: 92%;
+  margin: auto;
+  margin-top: 80px;
+}
+.section{
+  margin: auto;
+  width: 95%;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.sec-head{
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sec-content{
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+}
+.sec-text{
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+  background: rgb(10,6,68);
+  background: linear-gradient(156deg, rgba(10,6,68,1) 0%, rgba(48,43,110,1) 50%, rgba(95,90,154,1) 100%);
+  padding: 4rem;
+  border-radius: 4.5px;
+  -webkit-border-radius: 4.5px;
+  -moz-border-radius: 4.5px;
+  -ms-border-radius: 4.5px;
+  -o-border-radius: 4.5px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+.linear-bg{
+  background: rgb(10,6,68);
+  background: linear-gradient(156deg, rgba(10,6,68,1) 0%, rgba(48,43,110,1) 50%, rgba(95,90,154,1) 100%);
+}
+.text-center{
+  text-align: center;
+  margin: auto;
+}
+.col{
+  flex: 1;
+  margin: auto;
+  padding: 1rem;
+}
+@media screen and (max-width:960px) and (min-width:250px){
+  .content-wrap{
+    width: 90%;
+  }
+}
+.soon{
+  font-size: 20px;
+  color: #ffffff46;
+}

@@ -1,0 +1,139 @@
+@import url('http://fonts.cdnfonts.com/css/nasalization-2');
+:root {
+    --text-color:#a6fcff;
+    --font: 'Nasalization', sans-serif;
+}
+*{
+    font-family: var(--font) !important;
+}
+.mini-head{
+    color: var(--text-color);
+}
+.mini-head-2{
+    color:var(--text-color);
+}
+#root{
+    background:url('../img/bg2.jpg') !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+.banner-images{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-text .banner-title{
+    font-size: 8rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px #0f92ce;
+}
+.banner-text .row{
+    margin-top: 5rem;
+}
+.buy-btn{
+    background: #0f88ce;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60%;
+    margin: auto;
+}
+.about-text{
+   font-size: 2.3rem;
+   font-weight: bold;
+   text-shadow: 0 0 20px #0f92ce;
+   background: rgb(204, 204, 204);
+   /*FallbackforolderbrowserswithoutRGBA-support*/
+   background: rgba(204, 204, 204, 0.5);
+   padding: 2rem;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+   margin-top: -20rem;
+}
+.video-source{
+    width: 100%;
+    min-height: 350px !important;
+    max-height: 400px !important ;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: transparent;
+    overflow: hidden;
+}
+.link{
+    float: left;
+    margin:auto;
+    width: 24.5%;
+}
+.link .social-img{
+    width: 50%;
+    max-height: 70px !important;
+    margin: auto;
+}
+.link .social-img:hover{
+    width: 55%;
+    max-height: 75px;
+    transition: 10ms;
+    -webkit-transition: 10ms;
+    -moz-transition: 10ms;
+    -ms-transition: 10ms;
+    -o-transition: 10ms;
+}
+.mobile-ind{
+    display: none;
+}
+.timeline-mobile{
+    display: none;
+}
+
+
+#stake {
+    background-image: url(../img/background/bg2.jpg);
+    height: 100%;
+}
+  
+  #stake .header {
+    background-image: url(../img/stake-head.png);
+    background-size: 80%;
+    width: 100%;
+    margin: auto;
+    margin-top: -5rem;
+  }
+   #stake .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 80px;
+    margin-top: -5%;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .about-text-2{
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px #0f92ce;
+    background: rgb(204, 204, 204);
+    /*FallbackforolderbrowserswithoutRGBA-support*/
+    background: rgba(204, 204, 204, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: -80rem !important;
+ }

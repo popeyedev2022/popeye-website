@@ -1,0 +1,148 @@
+#introduction {
+  background-image: url("../img/background/bg_introduction.jpg");
+}
+
+#introduction .header {
+  background-image: url("../img/header/header_introduction.png");
+}
+
+.mb-15 {
+  margin-bottom: 15%;
+}
+
+#introduction .col-md-2 {
+  padding: 0;
+}
+.intro {
+  margin-bottom: 20%;
+  background-color: transparent;
+}
+
+.name-intro{
+  color: #27bff7;
+  margin-top: 10px;
+  font-family: Play;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: none;
+}
+
+.box-intro {
+  padding: 1% !important;
+}
+.border-robo {
+  /* background-image: url("../img/background/bg_robo.png"); */
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: fit-content;
+  /* padding: 4% 5%; */
+  transition: transfrom 200ms;
+}
+
+.border-main-robo {
+  width: 100%;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.img-robo {
+  width: 100%;
+  height: auto;
+  background-position: top;
+}
+
+.desc-robo {
+  background-image: url("../img/desc.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 24px;
+  height: 250px;
+}
+
+.each-slide {
+  height: 300px;
+}
+
+.desc-header-robo {
+  color: var(--text-color);
+  margin-top: 5%;
+  font-family: Play;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  transform: translateY(15px);
+}
+
+.desc-body-robo {
+  margin-top: 1%;
+  padding: 5%;
+  font-family: Play;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+  text-align: center;
+  transform: translateY(15px);
+  font-style: italic;
+
+  color: #ffffff;
+}
+
+.description-robo {
+  background-color: green;
+  color: red;
+  width: 94%;
+  text-align: center;
+  height: fit-content;
+  font-family: Play;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(0.25vw + 0.25vh + 0.25vmin);
+  line-height: 23px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.border-robo-main {
+  width: 90%;
+  margin: 0 auto;
+}
+.desc-child {
+  display: none;
+}
+
+.border-robo-child {
+  transition: transform 0.2s;
+}
+.border-robo-child:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  .col-md-2 .border-description-robo {
+    display: hidden;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) {
+  #introduction .desc-body-robo {
+    background-image: none;
+    border: 3px solid #0579ca;
+    border-style: solid;
+    border-right-width: 0;
+    border-left-width: 0;
+    height: fit-content;
+  }
+}
+
+@media(min-width: 991px){
+  .name-intro{
+    display:inline-block !important;
+  }
+}

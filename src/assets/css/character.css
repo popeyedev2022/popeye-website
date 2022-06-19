@@ -1,0 +1,331 @@
+#character {
+  background-image: url(../img/background/bg3.jpg);
+}
+#character .header {
+  background-image: url(../img/char-head.png);
+  background-size: 80%;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.ch_titletop {
+  background: url(../img/character/ch_title.png) center center no-repeat;
+  width: 100%;
+  padding: 3%;
+  margin-top: -1.2%;
+  text-align: center;
+  position: relative;
+  background-size: contain;
+}
+
+.ch_optionRobot {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: contain;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+.ch_optionRobot ul li {
+  margin: 10px;
+  float: left;
+}
+
+.ch_optionRobot a {
+  display: block;
+  color: white;
+  font-size: 24px;
+  font-family: play;
+}
+
+.ch_optionRobot a:focus {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: royalblue;
+}
+
+.js-click:focus {
+  background: url(../img/character/ch_rectangle.png);
+}
+
+/* Card */
+
+#character .card {
+  background: url(../img/char-border.png) no-repeat;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+  margin-bottom: 5%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  opacity: 0.1;
+}
+
+#character .card-default-robo {
+  opacity: 1 !important;
+  padding: 0 !important;
+}
+
+#character .card-default-robo img:hover {
+  transform: scale(1);
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1);
+
+  cursor: pointer;
+}
+
+.ch_avatar {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  background-position: top;
+}
+
+/* Iphone */
+@media (min-width: 375px) {
+  .ch_optionRobot a {
+    padding: 5px;
+  }
+}
+
+.card-robot img:hover {
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.15);
+
+  cursor: pointer;
+}
+
+.card-default-robo .card-robot img:hover {
+  -ms-transform: scale(1) !important; /* IE 9 */
+  -webkit-transform: scale(1) !important; /* Safari 3-8 */
+  transform: scale(1) !important;
+
+  cursor: pointer;
+}
+
+#character .card-robot {
+  /* transition: transform 0.2s; */
+  /* animation: intro-robo 5s infinite; */
+  opacity: 1;
+  position: relative;
+  animation: mymove 2s;
+}
+
+#character .card > img {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+#character .card .info {
+  /* background-size:contain; */
+  background-repeat: no-repeat;
+  /* width: 100%;
+  height: 150px;
+  background: url(images/bg.jpg) no-repeat center center fixed;  */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@keyframes intro-robot {
+  0% {
+    top: 0px;
+    left: 0px;
+    background: red;
+  }
+  25% {
+    top: 0px;
+    left: 100px;
+    background: blue;
+  }
+  50% {
+    top: 100px;
+    left: 100px;
+    background: yellow;
+  }
+  75% {
+    top: 100px;
+    left: 0px;
+    background: green;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background: red;
+  }
+}
+
+@keyframes mymove {
+  from {
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.paging {
+  margin-bottom: 15px;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paging button {
+  background: transparent !important;
+  border-radius: 15px;
+  border-color: #27bff7;
+
+  padding: 10px;
+  margin: 0px auto;
+
+  font-weight: bold;
+
+  transition: transform 0.2s;
+}
+
+.paging button:hover {
+  transform: scale(1.1);
+}
+.btn-page-robo {
+  color: white !important;
+  font-family: play !important;
+  background-color: #27bff7 !important;
+  font-weight: bold;
+  font-size: large;
+  width: 100px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.card-water {
+  background-image: url("../img/cardrobo/water.png");
+}
+
+.card-thunder {
+  background-image: url("../img/cardrobo/thunder.png");
+}
+.card-earth {
+  background-image: url("../img/cardrobo/earth.png");
+}
+.card-ice {
+  background-image: url("../img/cardrobo/ice.png");
+}
+.card-grass {
+  background-image: url("../img/cardrobo/grass.png");
+}
+
+.card-fire {
+  background-image: url("../img/cardrobo/fire.png");
+}
+
+.card-other {
+  background-image: url("../img/cardrobo/default.png");
+}
+
+.body-character {
+  display: flex;
+}
+
+.body-character .btn {
+  background-color: transparent;
+
+  font-size: large;
+  font-weight: bold;
+
+  color: #27bff7;
+}
+
+.page-items {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  justify-content: space-around;
+  display: none;
+}
+
+.page-items .active-page a {
+  color: #fff;
+  background-color: #27bff7;
+}
+
+.page-items-button {
+  background: transparent;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: #27bff7;
+  color: #fff;
+  padding: 10px;
+  margin: 0px auto;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.page-navigation-button {
+  background: transparent !important;
+  border-width: 2px;
+  display: inline-block;
+  width: 90px;
+  height: 45px;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: #27bff7;
+  padding: 10px;
+  margin: 0px auto;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+@media (min-width: 768px) {
+  .page-items {
+    display: flex;
+  }
+  .btn-prve {
+    display: none;
+  }
+  .btn-forward {
+    display: none;
+  }
+}
+.avatar{
+  position: relative;
+}
+.char-text{
+  position: absolute;
+  top: 84%;
+  left: 25%;
+  color: #fff;
+  font-size: 2rem;
+  text-shadow: 0 0 0 5px #065320;
+  display: none;
+}
+.display-block{
+  display: block;
+}
+
+

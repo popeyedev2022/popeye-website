@@ -1,0 +1,91 @@
+.brand-main{
+    width: 99%;
+    margin: auto;
+    margin-top: 80px;
+    
+    min-height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.brand-main .brand-head{
+    text-align: center;
+}
+.brand-main .brand-head .brand-logo{
+    width:50%;
+    margin:auto;
+}
+.brand-main .brand-head h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.brand-main .brand-content{
+    padding: 2rem;
+    width: 45%;
+}
+.brand-content .brand-text{
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.brand-content .brand-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.brand-buttons .brand-btn{
+    min-width: 100px;
+    max-width: 150px;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    background: rgb(10,6,68);
+    background: linear-gradient(156deg, rgba(10,6,68,1) 0%, rgba(48,43,110,1) 50%, rgba(95,90,154,1) 100%);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.brand-buttons .brand-btn:hover{
+    color: #fff;
+    transition: 0.5s;
+    background: linear-gradient(97.54deg,#26A7FC 2.21%,#9933FE 97%);
+    background-image: linear-gradient(97.54deg, rgb(38, 167, 252) 2.21%, rgb(153, 51, 254) 97%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+
+
+
+/* MOBILE START */
+@media screen and (max-width: 768px){
+    .brand-main{
+       width: 85%;
+       background-size: 100%;
+    }
+    .brand-main .brand-head h1{
+       font-size: 2rem;
+       margin-bottom: 0;
+    }
+    .brand-main .brand-content{
+       width: 100%;
+    }
+}

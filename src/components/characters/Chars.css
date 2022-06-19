@@ -1,0 +1,24 @@
+.char-wrap{
+    padding-top: 2rem;
+    
+}
+.char-wrap .char-img{
+    margin: auto;
+    width: 21%;
+    height: 345px;
+    margin-bottom: 2rem;
+    border:1px solid #545454;
+}
+.char-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.char-img:hover{
+    box-shadow: 0 0 10px #54545480;
+}
+@media screen and (max-width:960px) and (min-width:250px){
+    .char-wrap .char-img{
+        width: 50%;
+    }
+}

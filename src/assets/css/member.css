@@ -1,0 +1,94 @@
+.member {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  margin-bottom: 20%;
+  transition: transform 0.3s;
+}
+
+.member:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.social > a{
+  transition: transform 0.6s;
+}
+
+.social > a:hover {
+  transform: scale(1.12) rotateY(360deg);
+}
+.border {
+  background-image: url("../img/devteam/border.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  padding-top: 2%;
+  margin-bottom: 5%;
+}
+
+.avatar {
+  width: 94%;
+  height: auto;
+  margin: auto;
+  background-position: top;
+}
+
+.shadow {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  width: 90%;
+  margin: auto;
+  margin-top: -30%;
+}
+
+.name {
+  font-family: Play;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin: auto;
+  margin-top: -10%;
+  /* 
+    border-color: red;
+    background-color: transparent;
+    border-width: thin;
+    border-style: solid; */
+}
+
+@media (max-width: 767px) {
+  .name {
+    font-size: 20px !important;
+  }
+
+  .description {
+    font-size: 16px !important;
+  }
+}
+
+.description {
+  font-family: Play;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #d5b99e;
+}
+
+.social {
+  display: flex;
+  padding: 15px;
+  font-size: 30px;
+  justify-content: center;
+}
+.social i {
+  margin: 10px;
+  color: #fff;
+}

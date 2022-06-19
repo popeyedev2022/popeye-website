@@ -1,0 +1,30 @@
+.partners{
+    margin: auto;
+    padding: 2rem;
+}
+.partner{
+    margin: auto;
+    padding: 2rem;
+    margin-left: 1.5rem;
+    width: 20%;
+    
+}
+.partner img{
+    width: 100%;
+    max-height: 80px;
+    margin: auto;
+    box-sizing: border-box;
+}
+@media screen and (max-width:960px) and (min-width:250px){
+    .partners{
+        width: 90%;
+        padding: 0;
+        margin: auto;
+    }
+    .partner{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 0.8rem;
+    }
+    
+}

@@ -1,0 +1,29 @@
+#footer{
+    width: 98%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid #808080ac;
+}
+.footer-wrap{
+    width: 100%;
+    margin: auto;
+}
+.footer-logo{
+    width: 40%;
+    margin: auto;
+}
+.footer-wrap .footer-links li{
+    list-style-type: none;
+    margin-bottom: 1.3rem;
+}
+.footer-copyright{
+    width: 100%;
+    border-top: 1px solid #808080ac;
+    font-size: 14px;
+}
+.footer-copyright p{
+    padding: 0.5rem;
+    color:  #808080ac;
+}

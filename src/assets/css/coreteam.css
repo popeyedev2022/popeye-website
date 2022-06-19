@@ -1,0 +1,38 @@
+#coreteam {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header {
+    background: url("../img/tokenomic-head.png");
+    background-size: 80%;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.ml-token{
+  margin-left: 20%;
+}
+.mr-token{
+  margin-right: 20%;
+}
+.li-span1{
+  border: 3px solid #8d2de7;
+}
+.li-span2{
+  border: 3px solid #38c29f;
+}
+.li-span3{
+  border: 3px solid #d9e25e;
+}
+.li-span4{
+  border: 3px solid #5fbfff;
+}
+.li-span5{
+  border: 3px solid #2d68e7;
+}
+

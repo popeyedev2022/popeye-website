@@ -1,0 +1,80 @@
+
+
+#gameplay {
+  background-image: url(../img/background/bg2.jpg);
+  height: 100%;
+}
+
+#gameplay .header {
+  background-image: url(../img/about-head.png);
+  background-size: 80%;
+  width: 100%;
+  margin: auto;
+  margin-top: -5rem;
+}
+
+.gp_titletop {
+  background: url(../img/gameplay/gp_title.png) center center no-repeat;
+  width: 100%;
+  padding: 3%;
+  margin-top: -1.2%;
+  text-align: center;
+  position: relative;
+  background-size: contain;
+}
+
+.gp_decorleft {
+  background: url(../img/gameplay/gp_decorleft.png) no-repeat;
+  width: 100%;
+  padding: 3%;
+  margin-top: -1.2%;
+  text-align: center;
+  position: relative;
+  background-size: contain;
+}
+
+.gp_decorright {
+  background: url(../img/gameplay/gp_decorright.png) no-repeat;
+  width: 100%;
+  padding: 3%;
+  margin-top: -1.2%;
+  right: 0;
+  position: relative;
+  background-size: contain;
+}
+
+.gp_imagecard {
+  background: url(../img/gameplay/gp_formcard.png) center center no-repeat;
+  text-align: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.iframe {
+  margin: 1px;
+  width: 100%;
+  height: 100%;
+  border-color: rgb(33, 179, 240);
+  border-style: solid;
+  border-width: thick;
+  border-radius: 30px;
+}
+
+.video-layout{
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  transform: translateY(-200px);
+}
+
+#gameplay .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 80px;
+  margin-top: -5%;
+  font-weight: bold;
+  font-family: play;
+  text-transform: uppercase;
+}

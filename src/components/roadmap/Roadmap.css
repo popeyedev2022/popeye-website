@@ -1,0 +1,36 @@
+.roadmap-wrap{
+    width: 100%;
+    padding: 1rem;
+}
+.phase{
+    margin: auto;
+    width: 20%;
+    height: 250px;
+    padding: 2rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.phase h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.phase ul{
+    padding: 0;
+    margin: 0;
+}
+.phase ul li{
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+@media screen and (max-width:960px) and (min-width:250px){
+    .phase{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+}

@@ -1,0 +1,309 @@
+#home {
+  background-image: url(../img/background/b.jpg);
+  padding: 30px;
+}
+
+.option {
+  right: 1;
+  position: absolute;
+  z-index: 1;
+  width: fit-content;
+  text-align: center;
+}
+.option-header {
+  display: inline-flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.option-header .btn {
+  margin: auto 10px;
+  margin-top: 0;
+  background-color: transparent;
+  border-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  transition: transform 0.2s;
+}
+
+.option-header .btn:hover {
+  transform: scale(1.1);
+  color: #00ffff;
+}
+
+.option-header .btn-active {
+  color: #00ffff;
+  border-bottom-color: #00ffff;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+.break {
+  width: 5px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  transition: transform 0.2s;
+  transform: translateY(25%);
+}
+
+#home .img-robo {
+  max-width: 40%;
+  height: auto;
+  animation: robo infinite;
+  animation-direction: alternate;
+  animation-duration: 1.3s;
+  filter: drop-shadow(10px 10px 10px #00ffff);
+}
+
+#home .box-robo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#home .btn-follow {
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  margin: 10px;
+  padding: 10px !important;
+  transition: transform 0.2s;
+}
+
+#home .btn-follow:hover {
+  background-color: transparent;
+  transform: scale(1.2);
+}
+
+.text {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.social-home {
+  /* transform: translateY(-50%); */
+  margin-top:10rem !important;
+  margin-bottom: 10rem !important;
+  margin: auto;
+}
+
+
+#menu {
+  padding: 0 !important;
+}
+
+@keyframes robo {
+  100% {
+    transform: translateY(-5%);
+  }
+  0% {
+    transform: translateY(-10%);
+  }
+}
+
+.logo-body {
+  text-align: center;
+}
+
+.img-logo-home {
+  max-width: 100px;
+  transition: transform 0.5s;
+  filter: drop-shadow(3px 3px 3px #00ffff);
+}
+
+.img-logo-home-2 {
+  max-width: 92px;
+  transition: transform 0.5s;
+  filter: drop-shadow(3px 3px 3px #00ffff);
+}
+
+.img-logo-home:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+img-logo-home-2 {
+  max-width: 92px;
+}
+
+.option-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #00ffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 1px 4px 4px 1px #00ffff;
+
+  animation: mymove 2s;
+}
+
+.option-box-header {
+  font-weight: bold;
+  color: #00ffff;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom-color: #00ffff;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  font-size: 40px;
+}
+
+.attack {
+  color: red;
+}
+
+.defence {
+  color: royalblue;
+}
+
+.agility {
+  color: orange;
+}
+
+.luck {
+  color: green;
+}
+
+.blood {
+  color: #cc0000;
+}
+
+.mana {
+  color: blue;
+}
+
+.fightpower {
+  color: gold;
+}
+
+.default-property {
+  color: rgb(244, 227, 59);
+}
+.form-property {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.value-property {
+  border-radius: 10px;
+  border-style: thin;
+  text-align: right;
+  align-self: center;
+}
+
+.value-property .element {
+  width: 20px;
+  height: 30px;
+}
+
+.name-property {
+  align-self: center;
+  margin-right: 5px;
+}
+
+hr {
+  background: #00ffff !important;
+  width: 100%;
+}
+
+.li-follow {
+  float: left;
+}
+
+@media (max-width: 992px) {
+  .option {
+    float: none;
+    position: relative;
+    width: 100% !important;
+  }
+
+  .social-home {
+    /* transform: translate(0); */
+    text-align: center;
+  }
+
+  .follow ul {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom: 1;
+  }
+}
+
+.box {
+  position: relative;
+  width: 240px;
+  height: fit-content;
+  transform-style: preserve-3d;
+  animation: slid 30s linear infinite;
+}
+
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 72deg)) translateZ(350px);
+}
+.box span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: 2s;
+}
+.box span:hover img {
+  transform: translateY(-50px) scale(1.7);
+}
+@keyframes slid {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+@keyframes mymove {
+  from {
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
+.contract {
+  text-decoration: underline;
+  margin: 10px;
+  font-size: 19px;
+  font-family: play;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.contract:hover{
+  cursor: pointer;
+}
+
+@media (min-width: 993px){
+  .option{
+    transform: translateY(-50px);
+  }
+}

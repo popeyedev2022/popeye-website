@@ -1,0 +1,111 @@
+
+@media  screen and (min-width: 1500px) {
+    .banner-text{
+        left: 50%;
+        transform: translate(-50%,-50%);
+        top: 40%;
+    }    
+    
+}
+@media screen and (max-width: 350px) and (min-width: 270px) {
+    
+    .about-text{
+        font-size: 1.5rem;
+        margin-top: -25rem !important;
+    }
+    .about-text-2{
+        font-size: 1.5rem;
+        margin-top: 10rem !important;
+    }
+    #character{
+        margin-top: 15rem;
+    }
+    #stake{
+        margin-top: -20rem;
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    #Stake{
+        margin-top: -10rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+.banner-text{
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 40%;
+}    
+.banner-text .banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+ }
+.banner-text .row{
+    margin-top: 1rem;
+}
+.banner-text .row .mini-head,.mini-head-2{
+    font-size: 2rem;
+}
+.banner-text .row .contract{
+    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+}
+
+#home{
+    margin-bottom: 15rem;
+}
+#gameplay{
+    padding: 0 !important;
+    overflow: hidden;
+}
+#gameplay .about-text{
+    font-size: 1.5rem;
+    margin-top: -40rem;
+}
+.about-text-2{
+    font-size: 1.5rem;
+    margin-top: -100rem !important;
+}
+#character .header{
+    margin-top: -15rem;
+}
+#joinUs{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.desktop-ind{
+    display: none;
+}
+.mobile-ind{
+    display:block;
+    margin-top: 10rem;
+}
+.timeline{
+    display: none;
+}
+.timeline-mobile{
+    display: block;
+    width: 110%;
+    margin-top: 3rem;
+}
+#roadmap{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+}
+#JoinUs .row .link{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+}
+#JoinUs{
+    margin-top: -10rem;
+}
+
+}
+    
