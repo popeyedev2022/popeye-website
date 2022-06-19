@@ -26,10 +26,10 @@ const graph = [{
                         <li><span className='label'>Total Supply</span> : <span className='value'>100.000.000</span></li>
                         <li><h3><i>-Buy</i></h3></li>
                         <li><span className='label'>Liquditiy</span> : <span className='value'>%5</span></li>
-                        <li><span className='label'>PancakeSwap Liquditiy</span> : <span className='value'>%3</span></li>
+                        <li><span className='label'>Marketing</span> : <span className='value'>%3</span></li>
                         <li><h3><i>-Sell</i></h3></li>
                         <li><span className='label'>Liquditiy</span> : <span className='value'>%5</span></li>
-                        <li><span className='label'>PancakeSwap Liquditiy</span> : <span className='value'>%10</span></li>
+                        <li><span className='label'>Marketing</span> : <span className='value'>%10</span></li>
                     </ul>
                 </div>
                 <div className='chart-area'>
