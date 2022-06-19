@@ -21,4 +21,8 @@
     .char-wrap .char-img{
         width: 80%;
     }
+    .char-wrap{
+        padding-top: 2rem;
+        width: 100% !important;
+    }
 }
