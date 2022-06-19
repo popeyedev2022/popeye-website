@@ -58,7 +58,7 @@ import logo from '../../assets/img/logo.png';
                          <li><a href="#about">About</a></li>
                          <li><a href="#tokenomic">Tokenomic</a></li>
                          <li><a href="#roadmap">Roadmap</a></li>
-                         <li><a href="#buy" className='buy-link'>BUY Boodogy</a></li>
+                         <li><a href="#buy" className='buy-link'>BUY Popeye</a></li>
                      </ul>
                  </div>
              </div>

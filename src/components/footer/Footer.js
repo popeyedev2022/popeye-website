@@ -18,7 +18,7 @@ const Footer = () => (
                 </div>
                 <div className='col'>
                         <ul className='footer-links'>
-                            <li><a href='#home'>Telegram</a></li>
+                            <li><a href='https://t.me/Popeyeofficiall'>Telegram</a></li>
                             <li><a href='#about'>Twitter</a></li>
                             <li><a href='#tokenomic'>PancakewSwap</a></li>
                             <li><a href='#roadmap'>CoinMarketCap</a></li>
