@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Chars.css';
-import char from '../../assets/img/question.png';
+import char from '../../assets/img/soon.GIF';
 
  class Chars extends Component {
   render() {
